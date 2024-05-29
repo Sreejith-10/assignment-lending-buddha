@@ -15,7 +15,7 @@ function Form() {
 
 	const fetchUser = async () => {
 		try {
-			const {data} = await axios.get("http://localhost:3000/get-user/" + id);
+			const {data} = await axios.get("http://localhost:3000/api/user/get-user/" + id);
 			const resp = data.data;
 			setUser(resp);
 			setName(resp.name);
