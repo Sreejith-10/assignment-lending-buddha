@@ -38,7 +38,7 @@ npm install
 npm start
 ```
 
-Now the project will be running of http://localhost:5173
+Now the project will be running on http://localhost:5173
 
 ## ENVIRONMENT VARIABLE SETUP
 
