@@ -1,0 +1,44 @@
+GET http://localhost:3000/get-user/sreejisth@gmail.com
+
+
+###
+POST http://localhost:3000/create-user
+Content-Type: application/json
+
+{
+    "name":"vipim",
+    "email":"sreejith@gmail.com"
+}
+
+###
+PUT http://localhost:3000/update-user
+Content-Type: application/json
+
+{
+    "name":"maestro",
+    "email":"sreejith@gmail.com"
+}
+
+###
+DELETE http://localhost:3000/delete-user/sreejith@gmail.com
+
+
+###
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+    "name":"maestro",
+    "email":"sreejith@gmail.com",
+    "password":"12345678"
+}
+
+
+###
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+    "email":"sreejith@gmail.com",
+    "password":"12345678"
+}
