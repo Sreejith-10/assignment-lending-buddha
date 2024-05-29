@@ -27,6 +27,17 @@
 	box-shadow: 4px 4px var(--main-color);
 }
 
+.form .field-container {
+	position: relative;
+}
+
+.form .field-container .eye-icon {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	transform: translateY(-50%);
+}
+
 .form a {
 	color: rgb(53, 56, 60);
 	text-decoration: none;
